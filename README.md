@@ -1,2 +1,2 @@
 # kimcix.github.io
-personal website
+personal website(kimcix.github.io)
