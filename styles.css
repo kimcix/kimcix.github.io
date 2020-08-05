@@ -1,0 +1,85 @@
+/* General Settings 
+    - Make sure that 'Open Sans Condensed is included on every page!" */
+
+body {
+  background-color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+h1, h2 {
+  color: #E58A8A;
+}
+
+
+/* Side Menu settings */
+.flex-column .nav-item .nav-link {
+  color: rgb(44, 44, 44);
+}
+
+
+/* Nav Settings */
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  border-bottom: 1px solid #BBBBBB;
+}
+
+
+/* Carousel Settings */
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.carousel-indicators li {
+  background-color: #BBBBBB;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: #E58A8A;
+}
+
+i {
+  padding: 2px
+}
+
+/* box settings */
+
+
+/* Hide the images by default */
+.product-pic {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* misc */
+.gridbox img {
+  box-shadow: 10px 10px 8px 0px rgba(105,105,105,0.69);
+}
